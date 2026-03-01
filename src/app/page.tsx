@@ -43,7 +43,7 @@ export default function MiguelPage() {
 
         <p className="mt-6 text-lg text-red-600">
           Miguel dos Santos Farias, tambem conhecido como: MIGW, charmes, migs, gueguel, homem de lata, Groud Master, Migwoke, magraum, zoio, costelinha, entre outros. Eh um cantor, compositor, desenvolvedor, programador, pro-player de diversos jogos online, guitarrista, estudante etc. que vem se destacando nos ultimos meses por suas incriveis habilidades no jogo eletronico 
-          "League of Legends" com o personagem Kayn jogando na area da selva.
+          League of Legends com o personagem Kayn jogando na area da selva.
         </p>
 
         <p className="mt-4 text-blue-600">
