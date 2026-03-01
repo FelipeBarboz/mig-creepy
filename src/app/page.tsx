@@ -7,7 +7,7 @@ export default function MiguelPage() {
       {/* HEADER */}
       <section className="p-10">
 
-        <h1 className="text-[80px] font-bold text-pink-600 leading-tight">
+        <h1 className="text-[80px] font-bold text-pink-600 leading-tight animate-float">
           MIGUEL DOS SANTOS FARIAS
         </h1>
 
@@ -24,7 +24,7 @@ export default function MiguelPage() {
         <img
           src="/images/miguelCripi.png"
           alt="miguel"
-          className="w-[350px] rotate-1 border-[2px] border-red-500"
+          className="w-[350px] rotate-1 border-[2px] border-red-500 animate-spin-slow"
         />
 
         <p className="text-xs text-red-200 mt-2">
@@ -37,11 +37,11 @@ export default function MiguelPage() {
       {/* BIOGRAFIA */}
       <section className="px-10 mt-20 max-w-2xl">
 
-        <h2 className="text-4xl text-purple-600 font-bold">
+        <h2 className="text-4xl text-purple-600 font-bold animate-drift">
           quem é
         </h2>
 
-        <p className="mt-6 text-lg text-red-600">
+        <p className="mt-6 text-lg text-red-600 animate-jump">
           Miguel dos Santos Farias, tambem conhecido como: MIGW, charmes, migs, gueguel, homem de lata, Groud Master, Migwoke, magraum, zoio, costelinha, entre outros. Eh um cantor, compositor, desenvolvedor, programador, pro-player de diversos jogos online, guitarrista, estudante etc. que vem se destacando nos ultimos meses por suas incriveis habilidades no jogo eletronico 
           League of Legends com o personagem Kayn jogando na area da selva.
         </p>
@@ -88,12 +88,13 @@ export default function MiguelPage() {
           <div>
 
             <h3 className="text-2xl text-blue-600 font-bold">
-              incidente de 17 de março
+              incidente habilidade exuberada na jungle
             </h3>
 
             <p className="text-orange-600 mt-2">
-              registros indicam comportamento incomum durante uma transmissão
-              ao vivo. O conteúdo foi removido minutos depois.
+              registros indicam que Miguel dos Santos Farias teria utilizado sua habilidade de forma exuberada
+              durante as partidas de LOL na posição jungle, causando um desequilíbrio no espaćo e tempo. Por conta disso,
+              seus amigos decidiram banir o Miguel da posição da jungle com um abaixo assinado, o que gerou um grande desconforto e revolta por parte do Miguel.
             </p>
 
             <img
@@ -107,16 +108,15 @@ export default function MiguelPage() {
           <div>
 
             <h3 className="text-2xl text-purple-600 font-bold">
-              desaparecimento temporário
+              DESEMPENHO EXUBERANTE EM PARTIDAS RANQUEADAS E NORMAIS E EM JOGOS DE OUTROS GÊNEROS
             </h3>
 
             <p className="text-pink-600 mt-2">
-              sua conta permaneceu inativa por um período desconhecido.
-              Nenhuma explicação foi fornecida.
+              Miguel apresenta um desempenho exuberante em partidas ranqueadas e normais, bem como em jogos de outros gêneros, o que tem gerado desconforto e revolta por parte de seus amigos, que se sentem ofendidos e ameaçados por sua habilidade excepcional.
             </p>
 
             <img
-              src="/polemica2.jpg"
+              src="/images/Frag.png"
               className="w-[300px] mt-4 -rotate-2 border-[5px] border-blue-500"
             />
 
