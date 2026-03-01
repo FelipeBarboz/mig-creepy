@@ -46,7 +46,7 @@ export default function MiguelPage() {
           League of Legends com o personagem Kayn jogando na area da selva.
         </p>
 
-        <p className="mt-4 text-blue-600">
+        <p className="mt-4 text-blue-600 animate-shake">
           Não existem registros consistentes sobre o início de sua atividade.
           Algumas fontes afirmam que sua música surgiu de forma espontânea,
           sem anúncio ou intenção clara.
@@ -66,7 +66,7 @@ export default function MiguelPage() {
         <img
           src="/images/رجل القصدير.png"
           alt="master yi"
-          className="w-[400px] -rotate-3 border-[8px] border-red-500"
+          className="w-[400px] -rotate-3 border-[8px] border-red-500 animate-pulse"
         />
 
         <p className="text-sm text-purple-600 mt-2">
@@ -79,7 +79,7 @@ export default function MiguelPage() {
       {/* POLÊMICAS */}
       <section className="px-10 mt-32 max-w-2xl">
 
-        <h2 className="text-4xl text-red-600 font-bold">
+        <h2 className="text-4xl text-red-600 font-bold animate-spin-slow">
           polêmicas
         </h2>
 
@@ -87,11 +87,11 @@ export default function MiguelPage() {
 
           <div>
 
-            <h3 className="text-2xl text-blue-600 font-bold">
+            <h3 className="text-2xl text-blue-600 font-bold animate-drift">
               incidente habilidade exuberada na jungle
             </h3>
 
-            <p className="text-orange-600 mt-2">
+            <p className="text-orange-600 mt-2 animate-shake">
               registros indicam que Miguel dos Santos Farias teria utilizado sua habilidade de forma exuberada
               durante as partidas de LOL na posição jungle, causando um desequilíbrio no espaćo e tempo. Por conta disso,
               seus amigos decidiram banir o Miguel da posição da jungle com um abaixo assinado, o que gerou um grande desconforto e revolta por parte do Miguel.
@@ -107,7 +107,7 @@ export default function MiguelPage() {
 
           <div>
 
-            <h3 className="text-2xl text-purple-600 font-bold">
+            <h3 className="text-2xl text-purple-600 font-bold animate-jump">
               DESEMPENHO EXUBERANTE EM PARTIDAS RANQUEADAS E NORMAIS E EM JOGOS DE OUTROS GÊNEROS
             </h3>
 
@@ -119,6 +119,24 @@ export default function MiguelPage() {
               src="/images/Frag.png"
               className="w-[300px] mt-4 -rotate-2 border-[5px] border-blue-500"
             />
+
+            <a href="/docs/abaixo-assinado.docx" download>
+            
+            <button className="
+              text-2xl
+              bg-black
+              text-lime-400
+              px-8
+              py-4
+              border-4
+              border-pink-500
+              animate-shake
+              hover:bg-pink-500
+              hover:text-black
+            ">
+              baixar abaixo assinado.docx
+            </button>
+          </a>
 
           </div>
 
