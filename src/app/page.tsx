@@ -1,37 +1,161 @@
 import Link from "next/link";
 
-export default function HomePage() {
+export default function MiguelPage() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#2e026d] to-[#15162c] text-white">
-      <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16">
-        <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-[5rem]">
-          Create <span className="text-[hsl(280,100%,70%)]">T3</span> App
+    <main className="bg-teal-500 min-h-screen text-black">
+
+      {/* HEADER */}
+      <section className="p-10">
+
+        <h1 className="text-[80px] font-bold text-pink-600 leading-tight">
+          MIGUEL DOS SANTOS FARIAS
         </h1>
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:gap-8">
-          <Link
-            className="flex max-w-xs flex-col gap-4 rounded-xl bg-white/10 p-4 text-white hover:bg-white/20"
-            href="https://create.t3.gg/en/usage/first-steps"
-            target="_blank"
-          >
-            <h3 className="text-2xl font-bold">First Steps →</h3>
-            <div className="text-lg">
-              Just the basics - Everything you need to know to set up your
-              database and authentication.
-            </div>
-          </Link>
-          <Link
-            className="flex max-w-xs flex-col gap-4 rounded-xl bg-white/10 p-4 text-white hover:bg-white/20"
-            href="https://create.t3.gg/en/introduction"
-            target="_blank"
-          >
-            <h3 className="text-2xl font-bold">Documentation →</h3>
-            <div className="text-lg">
-              Learn more about Create T3 App, the libraries it uses, and how to
-              deploy it.
-            </div>
-          </Link>
+
+        <p className="text-lime-600 text-lg">
+          HOMEM DE LATA
+        </p>
+
+      </section>
+
+
+      {/* IMAGEM DELE */}
+      <section className="px-10 mt-10 justify-center flex flex-col items-center">
+
+        <img
+          src="/images/miguelCripi.png"
+          alt="miguel"
+          className="w-[350px] rotate-1 border-[2px] border-red-500"
+        />
+
+        <p className="text-xs text-red-200 mt-2">
+          Foto do Miguel, provavelmente tirada por um fã. A imagem é de baixa qualidade, reforçando a aura que ele carrega.
+        </p>
+
+      </section>masteryi.jpg
+
+
+      {/* BIOGRAFIA */}
+      <section className="px-10 mt-20 max-w-2xl">
+
+        <h2 className="text-4xl text-purple-600 font-bold">
+          quem é
+        </h2>
+
+        <p className="mt-6 text-lg text-red-600">
+          Miguel dos Santos Farias, tambem conhecido como: MIGW, charmes, migs, gueguel, homem de lata, Groud Master, Migwoke, magraum, zoio, costelinha, entre outros. Eh um cantor, compositor, desenvolvedor, programador, pro-player de diversos jogos online, guitarrista, estudante etc. que vem se destacando nos ultimos meses por suas incriveis habilidades no jogo eletronico 
+          "League of Legends" com o personagem Kayn jogando na area da selva.
+        </p>
+
+        <p className="mt-4 text-blue-600">
+          Não existem registros consistentes sobre o início de sua atividade.
+          Algumas fontes afirmam que sua música surgiu de forma espontânea,
+          sem anúncio ou intenção clara.
+        </p>
+
+        <p className="mt-4 text-green-600">
+          Seu comportamento online é inconsistente, alternando entre períodos
+          de atividade intensa e completo desaparecimento.
+        </p>
+
+      </section>
+
+
+      {/* MASTER YI */}
+      <section className="px-10 mt-20">
+
+        <img
+          src="/images/رجل القصدير.png"
+          alt="master yi"
+          className="w-[400px] -rotate-3 border-[8px] border-red-500"
+        />
+
+        <p className="text-sm text-purple-600 mt-2">
+          representação simbólica
+        </p>
+
+      </section>
+
+
+      {/* POLÊMICAS */}
+      <section className="px-10 mt-32 max-w-2xl">
+
+        <h2 className="text-4xl text-red-600 font-bold">
+          polêmicas
+        </h2>
+
+        <div className="mt-8 space-y-10">
+
+          <div>
+
+            <h3 className="text-2xl text-blue-600 font-bold">
+              incidente de 17 de março
+            </h3>
+
+            <p className="text-orange-600 mt-2">
+              registros indicam comportamento incomum durante uma transmissão
+              ao vivo. O conteúdo foi removido minutos depois.
+            </p>
+
+            <img
+              src="/polemica1.jpg"
+              className="w-[300px] mt-4 rotate-1 border-[5px] border-green-500"
+            />
+
+          </div>
+
+
+          <div>
+
+            <h3 className="text-2xl text-purple-600 font-bold">
+              desaparecimento temporário
+            </h3>
+
+            <p className="text-pink-600 mt-2">
+              sua conta permaneceu inativa por um período desconhecido.
+              Nenhuma explicação foi fornecida.
+            </p>
+
+            <img
+              src="/polemica2.jpg"
+              className="w-[300px] mt-4 -rotate-2 border-[5px] border-blue-500"
+            />
+
+          </div>
+
         </div>
-      </div>
+
+      </section>
+
+
+      {/* BOTÃO CREEPYPASTA */}
+      <section className="px-10 mt-32 pb-32">
+
+        <Link href="/arquivo">
+
+          <button className="
+            text-2xl
+            bg-black
+            text-[#f5efe6]
+            px-8
+            py-4
+            border-4
+            border-red-600
+            hover:bg-red-600
+            hover:text-black
+            transition
+          ">
+            acessar arquivo completo
+          </button>
+
+        </Link>
+
+        <p className="text-xs text-red-600 mt-4">
+          não recomendado
+        </p>
+
+      </section>
+
+
     </main>
   );
 }
