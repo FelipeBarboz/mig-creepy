@@ -19,14 +19,17 @@ export default function FariasPage() {
 
     // tenta autoplay imediato
     const tryPlay = () => {
-      audio.play().catch(() => {});
+      audio.play().catch(() => {teste()});
     };
 
     tryPlay();
 
+    const teste = () => {
+      console.log("teste");
+    }
     // fallback: qualquer interação ativa
     const unlockAudio = () => {
-      audio.play().catch(() => {});
+      audio.play().catch(() => {teste()});
       window.removeEventListener("click", unlockAudio);
       window.removeEventListener("scroll", unlockAudio);
       window.removeEventListener("mousemove", unlockAudio);
