@@ -115,3 +115,53 @@
 .animate-drift {
   animation: drift 3s infinite ease-in-out;
 }
+
+@keyframes background-insano {
+  0% {
+    background-color: #ff0000;
+  }
+
+  10% {
+    background-color: #00ff00;
+  }
+
+  20% {
+    background-color: #0000ff;
+  }
+
+  30% {
+    background-color: #ffff00;
+  }
+
+  40% {
+    background-color: #ff00ff;
+  }
+
+  50% {
+    background-color: #00ffff;
+  }
+
+  60% {
+    background-color: #ff8800;
+  }
+
+  70% {
+    background-color: #8800ff;
+  }
+
+  80% {
+    background-color: #00ff88;
+  }
+
+  90% {
+    background-color: #ff0088;
+  }
+
+  100% {
+    background-color: #ff0000;
+  }
+}
+
+.animate-bg-insano {
+  animation: background-insano 0.5s infinite linear;
+}

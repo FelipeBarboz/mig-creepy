@@ -148,7 +148,7 @@ export default function MiguelPage() {
       {/* BOTÃO CREEPYPASTA */}
       <section className="px-10 mt-32 pb-32">
 
-        <Link href="/arquivo">
+        <Link href="/farias">
 
           <button className="
             text-2xl
@@ -162,7 +162,7 @@ export default function MiguelPage() {
             hover:text-black
             transition
           ">
-            acessar arquivo completo
+            Farias
           </button>
 
         </Link>
